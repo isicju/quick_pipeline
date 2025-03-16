@@ -5,12 +5,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UITests3 {
+class EmptyUnit {
 
-	@SneakyThrows
+    @SneakyThrows
     @Test
-	void unitTest1() {
-		Thread.sleep(4000);
-	}
+    void unitTest() {
+    }
 
 }
